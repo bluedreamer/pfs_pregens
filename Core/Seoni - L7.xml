@@ -1,0 +1,2275 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.3" release="1|3.5E:17|CoreRPG:4">
+	<character>
+		<abilities>
+			<charisma>
+				<bonus type="number">5</bonus>
+				<bonusmodifier type="number">0</bonusmodifier>
+				<damage type="number">0</damage>
+				<score type="number">21</score>
+			</charisma>
+			<constitution>
+				<bonus type="number">1</bonus>
+				<bonusmodifier type="number">0</bonusmodifier>
+				<damage type="number">0</damage>
+				<score type="number">12</score>
+			</constitution>
+			<dexterity>
+				<bonus type="number">2</bonus>
+				<bonusmodifier type="number">0</bonusmodifier>
+				<damage type="number">0</damage>
+				<score type="number">14</score>
+			</dexterity>
+			<intelligence>
+				<bonus type="number">0</bonus>
+				<bonusmodifier type="number">0</bonusmodifier>
+				<damage type="number">0</damage>
+				<score type="number">10</score>
+			</intelligence>
+			<strength>
+				<bonus type="number">0</bonus>
+				<bonusmodifier type="number">0</bonusmodifier>
+				<damage type="number">0</damage>
+				<score type="number">10</score>
+			</strength>
+			<wisdom>
+				<bonus type="number">1</bonus>
+				<bonusmodifier type="number">0</bonusmodifier>
+				<damage type="number">0</damage>
+				<score type="number">13</score>
+			</wisdom>
+		</abilities>
+		<ac>
+			<sources>
+				<abilitymod type="number">2</abilitymod>
+				<abilitymod2 type="number">0</abilitymod2>
+				<armor type="number">0</armor>
+				<cmdabilitymod type="number">0</cmdabilitymod>
+				<cmdbasemod type="number">3</cmdbasemod>
+				<cmdmisc type="number">0</cmdmisc>
+				<deflection type="number">2</deflection>
+				<dodge type="number">1</dodge>
+				<ffmisc type="number">0</ffmisc>
+				<misc type="number">0</misc>
+				<naturalarmor type="number">2</naturalarmor>
+				<shield type="number">0</shield>
+				<size type="number">0</size>
+				<temporary type="number">0</temporary>
+				<touchmisc type="number">0</touchmisc>
+			</sources>
+			<totals>
+				<cmd type="number">18</cmd>
+				<flatfooted type="number">14</flatfooted>
+				<general type="number">17</general>
+				<touch type="number">15</touch>
+			</totals>
+		</ac>
+		<alignment type="string">Lawful Neutral</alignment>
+		<attackbonus>
+			<base type="number">3</base>
+			<grapple>
+				<abilitymod type="number">0</abilitymod>
+				<misc type="number">0</misc>
+				<size type="number">0</size>
+				<temporary type="number">0</temporary>
+				<total type="number">3</total>
+			</grapple>
+			<melee>
+				<abilitymod type="number">0</abilitymod>
+				<misc type="number">0</misc>
+				<size type="number">0</size>
+				<temporary type="number">0</temporary>
+				<total type="number">3</total>
+			</melee>
+			<ranged>
+				<abilitymod type="number">2</abilitymod>
+				<misc type="number">0</misc>
+				<size type="number">0</size>
+				<temporary type="number">0</temporary>
+				<total type="number">5</total>
+			</ranged>
+		</attackbonus>
+		<classes>
+			<id-00001>
+				<favored type="number">1</favored>
+				<level type="number">7</level>
+				<name type="string">Sorcerer</name>
+				<shortcut type="windowreference">
+					<class>referenceclass</class>
+					<recordname>reference.classes.sorcerer@Pathfinder Core Rules</recordname>
+				</shortcut>
+				<skillranks type="number">21</skillranks>
+				<skillranksused type="number">21</skillranksused>
+			</id-00001>
+		</classes>
+		<classlevel type="string">Sorcerer 7</classlevel>
+		<coins>
+			<slot1>
+				<amount type="number">0</amount>
+				<name type="string">pp</name>
+			</slot1>
+			<slot2>
+				<amount type="number">44</amount>
+				<name type="string">gp</name>
+			</slot2>
+			<slot3>
+				<amount type="number">0</amount>
+				<name type="string">sp</name>
+			</slot3>
+			<slot4>
+				<amount type="number">0</amount>
+				<name type="string">cp</name>
+			</slot4>
+			<slot5>
+				<amount type="number">0</amount>
+			</slot5>
+			<slot6>
+				<amount type="number">0</amount>
+			</slot6>
+		</coins>
+		<defenses>
+			<sr>
+				<base type="number">0</base>
+				<misc type="number">0</misc>
+				<temporary type="number">0</temporary>
+				<total type="number">0</total>
+			</sr>
+		</defenses>
+		<encumbrance>
+			<armorcheckpenalty type="number">0</armorcheckpenalty>
+			<armormaxstatbonus type="number">0</armormaxstatbonus>
+			<armormaxstatbonusactive type="number">0</armormaxstatbonusactive>
+			<heavyload type="number">100</heavyload>
+			<liftoffground type="number">200</liftoffground>
+			<liftoverhead type="number">100</liftoverhead>
+			<lightload type="number">33</lightload>
+			<load type="number">11</load>
+			<mediumload type="number">66</mediumload>
+			<pushordrag type="number">500</pushordrag>
+			<spellfailure type="number">0</spellfailure>
+		</encumbrance>
+		<exp type="number">0</exp>
+		<expneeded type="number">0</expneeded>
+		<featlist>
+			<id-00001>
+				<benefit type="formattedtext">
+					<p>You get a +2 bonus on Perception and Sense Motive skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.</p>
+				</benefit>
+				<locked type="number">1</locked>
+				<name type="string">Alertness</name>
+				<normal type="formattedtext">
+					<p>-</p>
+				</normal>
+				<prerequisites type="string">-</prerequisites>
+				<special type="formattedtext">
+					<p>-</p>
+				</special>
+				<summary type="string">+2 bonus on Perception and Sense Motive checks</summary>
+				<type type="string">General</type>
+			</id-00001>
+			<id-00002>
+				<benefit type="formattedtext">
+					<p>You get a +4 bonus on concentration checks made to cast a spell or use a spell-like ability when casting on the defensive or while grappled.</p>
+				</benefit>
+				<locked type="number">1</locked>
+				<name type="string">Combat Casting</name>
+				<normal type="formattedtext">
+					<p>-</p>
+				</normal>
+				<prerequisites type="string">-</prerequisites>
+				<special type="formattedtext">
+					<p>-</p>
+				</special>
+				<summary type="string">+4 bonus on concentration checks for defensive casting</summary>
+				<type type="string">General</type>
+			</id-00002>
+			<id-00003>
+				<benefit type="formattedtext">
+					<p>You gain a +1 dodge bonus to your AC. A condition that makes you lose your Dex bonus to AC also makes you lose the benefits of this feat.</p>
+				</benefit>
+				<locked type="number">1</locked>
+				<name type="string">Dodge</name>
+				<normal type="formattedtext">
+					<p>-</p>
+				</normal>
+				<prerequisites type="string">Dex 13.</prerequisites>
+				<special type="formattedtext">
+					<p>-</p>
+				</special>
+				<summary type="string">+1 dodge bonus to AC</summary>
+				<type type="string">Combat</type>
+			</id-00003>
+			<id-00004>
+				<benefit type="formattedtext">
+					<p>You can cast any spell with a material component costing 1 gp or less without needing that component. The casting of the spell still provokes attacks of opportunity as normal. If the spell requires a material component that costs more than 1 gp, you must have the material component on hand to cast the spell, as normal.</p>
+				</benefit>
+				<locked type="number">1</locked>
+				<name type="string">Eschew Materials</name>
+				<normal type="formattedtext">
+					<p>-</p>
+				</normal>
+				<prerequisites type="string">-</prerequisites>
+				<special type="formattedtext">
+					<p>-</p>
+				</special>
+				<summary type="string">Cast spells without material components</summary>
+				<type type="string">General</type>
+			</id-00004>
+			<id-00005>
+				<benefit type="formattedtext">
+					<p>An extended spell lasts twice as long as normal. A spell with a duration of concentration, instantaneous, or permanent is not affected by this feat. An extended spell uses up a spell slot one level higher than the spell's actual level.</p>
+				</benefit>
+				<locked type="number">1</locked>
+				<name type="string">Extend Spell</name>
+				<normal type="formattedtext">
+					<p>-</p>
+				</normal>
+				<prerequisites type="string">-</prerequisites>
+				<special type="formattedtext">
+					<p>-</p>
+				</special>
+				<summary type="string">Double spell duration</summary>
+				<type type="string">Metamagic</type>
+			</id-00005>
+			<id-00006>
+				<benefit type="formattedtext">
+					<p>Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select. This bonus stacks with the bonus from Spell Focus.</p>
+				</benefit>
+				<locked type="number">1</locked>
+				<name type="string">Greater Spell Focus (evocation)</name>
+				<normal type="formattedtext">
+					<p>-</p>
+				</normal>
+				<prerequisites type="string">Spell Focus.</prerequisites>
+				<special type="formattedtext">
+					<p>You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new school to which you already have applied the Spell Focus feat.</p>
+				</special>
+				<summary type="string">+1 bonus on save DCs for one school</summary>
+				<type type="string">General</type>
+			</id-00006>
+			<id-00007>
+				<benefit type="formattedtext">
+					<p>You get a +4 bonus on initiative checks.</p>
+				</benefit>
+				<locked type="number">1</locked>
+				<name type="string">Improved Initiative</name>
+				<normal type="formattedtext">
+					<p>-</p>
+				</normal>
+				<prerequisites type="string">-</prerequisites>
+				<special type="formattedtext">
+					<p>-</p>
+				</special>
+				<summary type="string">+4 bonus on initiative checks</summary>
+				<type type="string">Combat</type>
+			</id-00007>
+			<id-00008>
+				<benefit type="formattedtext">
+					<p>Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select.</p>
+				</benefit>
+				<locked type="number">1</locked>
+				<name type="string">Spell Focus (evocation)</name>
+				<normal type="formattedtext">
+					<p>-</p>
+				</normal>
+				<prerequisites type="string">-</prerequisites>
+				<special type="formattedtext">
+					<p>You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new school of magic.</p>
+				</special>
+				<summary type="string">+1 bonus on save DCs for one school</summary>
+				<type type="string">General</type>
+			</id-00008>
+		</featlist>
+		<gender type="string">Female</gender>
+		<hp>
+			<nonlethal type="number">0</nonlethal>
+			<temporary type="number">0</temporary>
+			<total type="number">44</total>
+			<wounds type="number">0</wounds>
+		</hp>
+		<initiative>
+			<abilitymod type="number">2</abilitymod>
+			<misc type="number">4</misc>
+			<temporary type="number">0</temporary>
+			<total type="number">6</total>
+		</initiative>
+		<inventorylist>
+			<id-00001>
+				<bonus type="number">0</bonus>
+				<carried type="number">2</carried>
+				<cl type="number">0</cl>
+				<cost type="string">-</cost>
+				<count type="number">1</count>
+				<critical type="string">x2</critical>
+				<damage type="string">1d6/1d6</damage>
+				<damagetype type="string">Bludgeoning</damagetype>
+				<description type="formattedtext">
+					<p>A quarterstaff is a simple piece of wood, about 5 feet in length.</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Quarterstaff</name>
+				<pfslegal type="string">True</pfslegal>
+				<properties type="string">double, monk</properties>
+				<range type="number">0</range>
+				<showonminisheet type="number">1</showonminisheet>
+				<slot type="string">Armor</slot>
+				<subtype type="string">Simple Two-Handed Melee</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">4</weight>
+			</id-00001>
+			<id-00002>
+				<bonus type="number">0</bonus>
+				<carried type="number">2</carried>
+				<cl type="number">0</cl>
+				<cost type="string">2 gp</cost>
+				<count type="number">1</count>
+				<critical type="string">19-20/x2</critical>
+				<damage type="string">1d4</damage>
+				<damagetype type="string">Piercing or Slashing</damagetype>
+				<description type="formattedtext">
+					<p>A dagger has a blade that is about 1 foot in length. You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body (see Using Skills).</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Dagger</name>
+				<pfslegal type="string">True</pfslegal>
+				<properties type="string">-</properties>
+				<range type="number">10</range>
+				<showonminisheet type="number">1</showonminisheet>
+				<slot type="string">Armor</slot>
+				<subtype type="string">Simple Light Melee</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">0</weight>
+			</id-00002>
+			<id-00003>
+				<ac type="number">0</ac>
+				<aura type="string">faint transmutation</aura>
+				<bonus type="number">0</bonus>
+				<carried type="number">2</carried>
+				<checkpenalty type="number">0</checkpenalty>
+				<cl type="number">5</cl>
+				<cost type="string">8000 gp</cost>
+				<count type="number">1</count>
+				<description type="formattedtext">
+					<p>This amulet, usually crafted from bone or beast scales, toughens the wearer's body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet.</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<location type="string">Neck</location>
+				<locked type="number">1</locked>
+				<maxstatbonus type="number">0</maxstatbonus>
+				<name type="string">Amulet of Natural Armor, +2</name>
+				<pfslegal type="string">True</pfslegal>
+				<range type="number">0</range>
+				<showonminisheet type="number">1</showonminisheet>
+				<slot type="string">neck</slot>
+				<speed20 type="number">0</speed20>
+				<speed30 type="number">0</speed30>
+				<spellfailure type="number">0</spellfailure>
+				<subtype type="string">Magic Wondrous Item</subtype>
+				<type type="string">Magic Wondrous Item</type>
+				<weight type="number">0</weight>
+			</id-00003>
+			<id-00004>
+				<ac type="number">0</ac>
+				<aura type="string">moderate transmutation</aura>
+				<bonus type="number">0</bonus>
+				<carried type="number">2</carried>
+				<checkpenalty type="number">0</checkpenalty>
+				<cl type="number">8</cl>
+				<cost type="string">4000 gp</cost>
+				<count type="number">1</count>
+				<description type="formattedtext">
+					<p>This attractive silver headband is decorated with a number of small red and orange gemstones. The headband grants the wearer an enhancement bonus to Charisma of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn.</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<location type="string">headband</location>
+				<locked type="number">1</locked>
+				<maxstatbonus type="number">0</maxstatbonus>
+				<name type="string">Headband of Alluring Charisma, +2</name>
+				<pfslegal type="string">True</pfslegal>
+				<prerequisites type="string">Craft Wondrous Item, eagle's splendor</prerequisites>
+				<range type="number">0</range>
+				<showonminisheet type="number">1</showonminisheet>
+				<slot type="string">headband</slot>
+				<speed20 type="number">0</speed20>
+				<speed30 type="number">0</speed30>
+				<spellfailure type="number">0</spellfailure>
+				<subtype type="string">Magic Wondrous Item</subtype>
+				<type type="string">Magic Wondrous Item</type>
+				<weight type="number">1</weight>
+			</id-00004>
+			<id-00005>
+				<ac type="number">0</ac>
+				<aura type="string">faint abjuration</aura>
+				<bonus type="number">0</bonus>
+				<carried type="number">2</carried>
+				<checkpenalty type="number">0</checkpenalty>
+				<cl type="number">5</cl>
+				<cost type="string">8000 gp</cost>
+				<count type="number">1</count>
+				<description type="formattedtext">
+					<p>This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<location type="string">ring</location>
+				<locked type="number">1</locked>
+				<maxstatbonus type="number">0</maxstatbonus>
+				<name type="string">Ring of Protection, +2</name>
+				<pfslegal type="string">True</pfslegal>
+				<prerequisites type="string">Forge Ring, shield of faith, caster must be of a level at least three times the bonus of the ring</prerequisites>
+				<range type="number">0</range>
+				<showonminisheet type="number">1</showonminisheet>
+				<slot type="string">ring</slot>
+				<speed20 type="number">0</speed20>
+				<speed30 type="number">0</speed30>
+				<spellfailure type="number">0</spellfailure>
+				<subtype type="string">Magic Ring</subtype>
+				<type type="string">Magic Ring</type>
+				<weight type="number">0</weight>
+			</id-00005>
+			<id-00006>
+				<carried type="number">1</carried>
+				<cost type="string">2 gp</cost>
+				<count type="number">1</count>
+				<description type="formattedtext">
+					<p>-</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Backpack (common)</name>
+				<pfslegal type="string">True</pfslegal>
+				<showonminisheet type="number">1</showonminisheet>
+				<subtype type="string">Adventuring Gear</subtype>
+				<type type="string">Goods and Services</type>
+				<weight type="number">2</weight>
+			</id-00006>
+			<id-00007>
+				<carried type="number">1</carried>
+				<cost type="string">5 sp</cost>
+				<count type="number">4</count>
+				<description type="formattedtext">
+					<p>-</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<location type="string">backpack (common)</location>
+				<locked type="number">1</locked>
+				<name type="string">Trail rations</name>
+				<pfslegal type="string">True</pfslegal>
+				<showonminisheet type="number">1</showonminisheet>
+				<subtype type="string">Food Drink</subtype>
+				<type type="string">Goods and Services</type>
+				<weight type="number">1</weight>
+			</id-00007>
+			<id-00008>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<carried type="number">1</carried>
+				<checkpenalty type="number">0</checkpenalty>
+				<cl type="number">0</cl>
+				<count type="number">3</count>
+				<description type="formattedtext">
+					<p>When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.</p>
+				</description>
+				<location type="string">backpack (common)</location>
+				<locked type="number">1</locked>
+				<maxstatbonus type="number">0</maxstatbonus>
+				<name type="string">Potion of Cure Light Wounds</name>
+				<range type="number">0</range>
+				<showonminisheet type="number">1</showonminisheet>
+				<speed20 type="number">0</speed20>
+				<speed30 type="number">0</speed30>
+				<spellfailure type="number">0</spellfailure>
+				<weight type="number">0</weight>
+			</id-00008>
+			<id-00009>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<location type="string">backpack (common)</location>
+				<name type="string">Potion of Cat's Grace</name>
+				<showonminisheet type="number">1</showonminisheet>
+				<weight type="number">0</weight>
+			</id-00009>
+			<id-00010>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<location type="string">backpack (common)</location>
+				<name type="string">Scroll of Fireball</name>
+				<showonminisheet type="number">1</showonminisheet>
+				<weight type="number">0</weight>
+			</id-00010>
+			<id-00011>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<location type="string">backpack (common)</location>
+				<name type="string">Scoll of Fly</name>
+				<showonminisheet type="number">1</showonminisheet>
+				<weight type="number">0</weight>
+			</id-00011>
+			<id-00012>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<carried type="number">1</carried>
+				<checkpenalty type="number">0</checkpenalty>
+				<cl type="number">0</cl>
+				<count type="number">1</count>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<locked type="number">1</locked>
+				<maxstatbonus type="number">0</maxstatbonus>
+				<name type="string">Wand of Magic Missile</name>
+				<range type="number">0</range>
+				<showonminisheet type="number">1</showonminisheet>
+				<speed20 type="number">0</speed20>
+				<speed30 type="number">0</speed30>
+				<spellfailure type="number">0</spellfailure>
+				<weight type="number">0</weight>
+			</id-00012>
+		</inventorylist>
+		<languagelist>
+			<id-00001>
+				<name type="string">Common</name>
+			</id-00001>
+			<id-00002>
+				<name type="string">Varisian</name>
+			</id-00002>
+		</languagelist>
+		<level type="number">7</level>
+		<name type="string">Seoni</name>
+		<notes type="string">A member of the wanderers known as Varisians, Seoni wears the magical markings of her culture in the elaborate tattoos that crisscross her body. But her path was not to be the path of tradition. A caravan master's daughter who spent much of her youth traveling, she was expected to one day either lead her own caravan or perhaps develop a talent for reading the harrow, the fortune-telling cards of her people. One night, while her family camped at the edge of the mysterious Lurkwood, young Seoni wandered out of sight of her people's cooking fires. There she found a great white tree, its ancient roots twisted around a ring of rune-carved stone. As she investigated, the tree's bark fell away, revealing elaborate symbols and images that related a brief tale - that of her own short life. Seoni f led, but returned with her kin soon after to find nothing more than a normal old tree and a strange rock.\n\nSeoni's runic tattoos play a large role in her identity. Coming from a people where tattoo magic maintains a strong following, hers are simultaneously a manifestation of her power and a tool to aid in her castings. The sheer number adorning her skin, as well as the similar patterns woven into her clothes, are a mark of status among her tribe.\n\nDespite being a consummate adventurer, Seoni is something of an enigma to her compatriots. Quietly neutral on most matters, bound by codes and mandates that she rarely feels compelled to explain, the sorceress keeps her emotions tightly bottled. Extremely detail oriented - what the more pugnacious members of her party call a &quot;control freak&quot; - Seoni is a careful and meticulous planner, a schemer who frequently becomes frustrated by the improvised plans of her more impulsive companions.</notes>
+		<proficiencylist>
+			<id-00001>
+				<name type="string">Weapon: simple</name>
+			</id-00001>
+		</proficiencylist>
+		<race type="string">Human</race>
+		<racelink type="windowreference">
+			<class>referencerace</class>
+			<recordname>reference.races.human@Pathfinder Core Rules</recordname>
+		</racelink>
+		<saves>
+			<fortitude>
+				<abilitymod type="number">1</abilitymod>
+				<base type="number">2</base>
+				<misc type="number">0</misc>
+				<temporary type="number">0</temporary>
+				<total type="number">3</total>
+			</fortitude>
+			<reflex>
+				<abilitymod type="number">2</abilitymod>
+				<base type="number">2</base>
+				<misc type="number">0</misc>
+				<temporary type="number">0</temporary>
+				<total type="number">4</total>
+			</reflex>
+			<will>
+				<abilitymod type="number">1</abilitymod>
+				<base type="number">5</base>
+				<misc type="number">0</misc>
+				<temporary type="number">0</temporary>
+				<total type="number">6</total>
+			</will>
+		</saves>
+		<size type="string">Medium</size>
+		<skilllist>
+			<id-00001>
+				<armorcheckmultiplier type="number">0</armorcheckmultiplier>
+				<label type="string">Appraise</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">0</stat>
+				<state type="number">1</state>
+				<statname type="string">intelligence</statname>
+				<total type="number">0</total>
+			</id-00001>
+			<id-00002>
+				<armorcheckmultiplier type="number">0</armorcheckmultiplier>
+				<label type="string">Bluff</label>
+				<misc type="number">0</misc>
+				<ranks type="number">7</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">5</stat>
+				<state type="number">1</state>
+				<statname type="string">charisma</statname>
+				<total type="number">15</total>
+			</id-00002>
+			<id-00003>
+				<armorcheckmultiplier type="number">0</armorcheckmultiplier>
+				<label type="string">Craft</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">0</stat>
+				<state type="number">1</state>
+				<statname type="string">intelligence</statname>
+				<total type="number">0</total>
+			</id-00003>
+			<id-00004>
+				<armorcheckmultiplier type="number">1</armorcheckmultiplier>
+				<label type="string">Fly</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">2</stat>
+				<state type="number">1</state>
+				<statname type="string">dexterity</statname>
+				<total type="number">2</total>
+			</id-00004>
+			<id-00005>
+				<armorcheckmultiplier type="number">0</armorcheckmultiplier>
+				<label type="string">Intimidate</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">5</stat>
+				<state type="number">1</state>
+				<statname type="string">charisma</statname>
+				<total type="number">5</total>
+			</id-00005>
+			<id-00006>
+				<armorcheckmultiplier type="number">0</armorcheckmultiplier>
+				<label type="string">Knowledge</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">0</stat>
+				<state type="number">1</state>
+				<statname type="string">intelligence</statname>
+				<sublabel type="string">Arcana</sublabel>
+				<total type="number">0</total>
+			</id-00006>
+			<id-00007>
+				<armorcheckmultiplier type="number">0</armorcheckmultiplier>
+				<label type="string">Profession</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">1</stat>
+				<state type="number">1</state>
+				<statname type="string">wisdom</statname>
+				<total type="number">1</total>
+			</id-00007>
+			<id-00008>
+				<armorcheckmultiplier type="number">0</armorcheckmultiplier>
+				<label type="string">Spellcraft</label>
+				<misc type="number">0</misc>
+				<ranks type="number">7</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">0</stat>
+				<state type="number">1</state>
+				<statname type="string">intelligence</statname>
+				<total type="number">10</total>
+			</id-00008>
+			<id-00009>
+				<armorcheckmultiplier type="number">0</armorcheckmultiplier>
+				<label type="string">Use Magic Device</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">5</stat>
+				<state type="number">1</state>
+				<statname type="string">charisma</statname>
+				<total type="number">5</total>
+			</id-00009>
+			<id-00010>
+				<armorcheckmultiplier type="number">1</armorcheckmultiplier>
+				<label type="string">Climb</label>
+				<misc type="number">3</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">0</stat>
+				<state type="number">0</state>
+				<statname type="string">strength</statname>
+				<total type="number">3</total>
+			</id-00010>
+			<id-00011>
+				<armorcheckmultiplier type="number">1</armorcheckmultiplier>
+				<label type="string">Escape Artist</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">2</stat>
+				<state type="number">0</state>
+				<statname type="string">dexterity</statname>
+				<total type="number">2</total>
+			</id-00011>
+			<id-00012>
+				<armorcheckmultiplier type="number">0</armorcheckmultiplier>
+				<label type="string">Diplomacy</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">5</stat>
+				<state type="number">0</state>
+				<statname type="string">charisma</statname>
+				<total type="number">5</total>
+			</id-00012>
+			<id-00013>
+				<armorcheckmultiplier type="number">0</armorcheckmultiplier>
+				<label type="string">Perception</label>
+				<misc type="number">2</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">1</stat>
+				<state type="number">0</state>
+				<statname type="string">wisdom</statname>
+				<total type="number">3</total>
+			</id-00013>
+			<id-00014>
+				<armorcheckmultiplier type="number">1</armorcheckmultiplier>
+				<label type="string">Disable Device</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">0</showonminisheet>
+				<stat type="number">2</stat>
+				<state type="number">0</state>
+				<statname type="string">dexterity</statname>
+				<total type="number">2</total>
+			</id-00014>
+			<id-00015>
+				<armorcheckmultiplier type="number">1</armorcheckmultiplier>
+				<label type="string">Acrobatics</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">2</stat>
+				<state type="number">0</state>
+				<statname type="string">dexterity</statname>
+				<total type="number">2</total>
+			</id-00015>
+			<id-00016>
+				<armorcheckmultiplier type="number">0</armorcheckmultiplier>
+				<label type="string">Handle Animal</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">0</showonminisheet>
+				<stat type="number">5</stat>
+				<state type="number">0</state>
+				<statname type="string">charisma</statname>
+				<total type="number">5</total>
+			</id-00016>
+			<id-00017>
+				<armorcheckmultiplier type="number">1</armorcheckmultiplier>
+				<label type="string">Swim</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">0</stat>
+				<state type="number">0</state>
+				<statname type="string">strength</statname>
+				<total type="number">0</total>
+			</id-00017>
+			<id-00018>
+				<armorcheckmultiplier type="number">1</armorcheckmultiplier>
+				<label type="string">Sleight of Hand</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">2</stat>
+				<state type="number">0</state>
+				<statname type="string">dexterity</statname>
+				<total type="number">2</total>
+			</id-00018>
+			<id-00019>
+				<armorcheckmultiplier type="number">0</armorcheckmultiplier>
+				<label type="string">Survival</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">1</stat>
+				<state type="number">0</state>
+				<statname type="string">wisdom</statname>
+				<total type="number">1</total>
+			</id-00019>
+			<id-00020>
+				<armorcheckmultiplier type="number">0</armorcheckmultiplier>
+				<label type="string">Linguistics</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">0</showonminisheet>
+				<stat type="number">0</stat>
+				<state type="number">0</state>
+				<statname type="string">intelligence</statname>
+				<total type="number">0</total>
+			</id-00020>
+			<id-00021>
+				<armorcheckmultiplier type="number">0</armorcheckmultiplier>
+				<label type="string">Disguise</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">5</stat>
+				<state type="number">0</state>
+				<statname type="string">charisma</statname>
+				<total type="number">5</total>
+			</id-00021>
+			<id-00022>
+				<armorcheckmultiplier type="number">0</armorcheckmultiplier>
+				<label type="string">Sense Motive</label>
+				<misc type="number">2</misc>
+				<ranks type="number">1</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">1</stat>
+				<state type="number">0</state>
+				<statname type="string">wisdom</statname>
+				<total type="number">4</total>
+			</id-00022>
+			<id-00023>
+				<armorcheckmultiplier type="number">1</armorcheckmultiplier>
+				<label type="string">Ride</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">2</stat>
+				<state type="number">0</state>
+				<statname type="string">dexterity</statname>
+				<total type="number">2</total>
+			</id-00023>
+			<id-00024>
+				<armorcheckmultiplier type="number">1</armorcheckmultiplier>
+				<label type="string">Stealth</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">2</stat>
+				<state type="number">0</state>
+				<statname type="string">dexterity</statname>
+				<total type="number">2</total>
+			</id-00024>
+			<id-00025>
+				<armorcheckmultiplier type="number">0</armorcheckmultiplier>
+				<label type="string">Heal</label>
+				<misc type="number">0</misc>
+				<ranks type="number">0</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">1</stat>
+				<state type="number">0</state>
+				<statname type="string">wisdom</statname>
+				<total type="number">1</total>
+			</id-00025>
+			<id-00026>
+				<armorcheckmultiplier type="number">0</armorcheckmultiplier>
+				<label type="string">Knowledge</label>
+				<misc type="number">0</misc>
+				<ranks type="number">6</ranks>
+				<showonminisheet type="number">1</showonminisheet>
+				<stat type="number">1</stat>
+				<state type="number">1</state>
+				<statname type="string">wisdom</statname>
+				<sublabel type="string">Planes</sublabel>
+				<total type="number">10</total>
+			</id-00026>
+		</skilllist>
+		<skillpoints>
+			<spent type="number">21</spent>
+		</skillpoints>
+		<specialabilitylist>
+			<id-00001>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Spells</name>
+				<source type="string">Sorcerer</source>
+				<text type="formattedtext">
+					<p>A sorcerer casts arcane spells drawn primarily from the sorcerer/wizard spell list presented in Spell Lists. She can cast any spell she knows without preparing it ahead of time. To learn or cast a spell, a sorcerer must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a sorcerer's spell is 10 + the spell level + the sorcerer's Charisma modifier.Like other spellcasters, a sorcerer can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on the Sorcerer Table. In addition, she receives bonus spells per day if she has a high Charisma score (see Ability Modifiers and Bonus Spells).A sorcerer's selection of spells is extremely limited. A sorcerer begins play knowing four 0-level spells and two 1st-level spells of her choice. At each new sorcerer level, she gains one or more new spells, as indicated on the Sorcerer Spells Known Table. (Unlike spells per day, the number of spells a sorcerer knows is not affected by her Charisma score; the numbers on the Sorcerer Spells Known Table are fixed.) These new spells can be common spells chosen from the sorcerer/wizard spell list, or they can be unusual spells that the sorcerer has gained some understanding of through study. Upon reaching 4th level, and at every even-numbered sorcerer level after that (6th, 8th, and so on), a sorcerer can choose to learn a new spell in place of one she already knows. In effect, the sorcerer loses the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. A sorcerer may swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that she gains new spells known for the level.Unlike a wizard or a cleric, a sorcerer need not prepare her spells in advance. She can cast any spell she knows at any time, assuming she has not yet used up her spells per day for that spell level.</p>
+				</text>
+			</id-00001>
+			<id-00002>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Bloodline power</name>
+				<source type="string">Sorcerer</source>
+				<text type="formattedtext">
+					<p>Each sorcerer has a source of magic somewhere in her heritage that grants her spells, bonus feats, an additional class skill, and other special abilities. This source can represent a blood relation or an extreme event involving a creature somewhere in the family's past. For example, a sorcerer might have a dragon as a distant relative or her grandfather might have signed a terrible contract with a devil. Regardless of the source, this influence manifests in a number of ways as the sorcerer gains levels. A sorcerer must pick one bloodline upon taking her first level of sorcerer. Once made, this choice cannot be changed.At 3rd level, and every two levels thereafter, a sorcerer learns an additional spell, derived from her bloodline. These spells are in addition to the number of spells given on the Sorcerer Spells Known Table. These spells cannot be exchanged for different spells at higher levels.At 7th level, and every six levels thereafter, a sorcerer receives one bonus feat, chosen from a list specific to each bloodline. The sorcerer must meet the prerequisites for these bonus feats.</p>
+				</text>
+			</id-00002>
+			<id-00003>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Cantrips</name>
+				<source type="string">Sorcerer</source>
+				<text type="formattedtext">
+					<p>Sorcerers learn a number of cantrips, or 0-level spells, as noted on the Sorcerer Spells Known Table under &quot;Spells Known.&quot; These spells are cast like any other spell, but they do not consume any slots and may be used again.</p>
+				</text>
+			</id-00003>
+			<id-00004>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Eschew materials</name>
+				<source type="string">Sorcerer</source>
+				<text type="formattedtext">
+					<p>A sorcerer gains Eschew Materials as a bonus feat at 1st level.</p>
+				</text>
+			</id-00004>
+			<id-00005>
+				<level type="number">3</level>
+				<locked type="number">1</locked>
+				<name type="string">Bloodline spell (3x)</name>
+				<source type="string">Sorcerer</source>
+				<text type="formattedtext">
+					<p>Each sorcerer has a source of magic somewhere in her heritage that grants her spells, bonus feats, an additional class skill, and other special abilities. This source can represent a blood relation or an extreme event involving a creature somewhere in the family's past. For example, a sorcerer might have a dragon as a distant relative or her grandfather might have signed a terrible contract with a devil. Regardless of the source, this influence manifests in a number of ways as the sorcerer gains levels. A sorcerer must pick one bloodline upon taking her first level of sorcerer. Once made, this choice cannot be changed.At 3rd level, and every two levels thereafter, a sorcerer learns an additional spell, derived from her bloodline. These spells are in addition to the number of spells given on the Sorcerer Spells Known Table. These spells cannot be exchanged for different spells at higher levels.At 7th level, and every six levels thereafter, a sorcerer receives one bonus feat, chosen from a list specific to each bloodline. The sorcerer must meet the prerequisites for these bonus feats.</p>
+				</text>
+			</id-00005>
+			<id-00006>
+				<locked type="number">1</locked>
+				<name type="string">Trait - Courageous</name>
+				<text type="formattedtext">
+					<p><b>Type: </b>Basic (Combat)</p>
+					<p><b>Requirements: </b>-</p>
+					<p>Your childhood was brutal, yet you persevered primarily through force of will and faith that no matter how hard things might get, as long as you kept a level head you'd make it through. You gain a +2 trait bonus on saving throws against fear effects.</p>
+				</text>
+				<type type="string">Trait - Basic (Combat)</type>
+			</id-00006>
+			<id-00007>
+				<locked type="number">1</locked>
+				<name type="string">Trait - World Traveler</name>
+				<text type="formattedtext">
+					<p><b>Archetype:</b></p>
+					<p>Sea Singer</p>
+					<p>A sea singer gains a bonus equal to half his bard level on Knowledge (geography), Knowledge (local), Knowledge (nature), and Linguistics checks. He can reroll a check against one of these skills, but must take the result of the second roll even if it is worse. He can reroll one additional time per day at 5th level and every five levels thereafter. This ability replaces bardic knowledge.</p>
+				</text>
+				<type type="string">Archetype Power</type>
+			</id-00007>
+			<id-00008>
+				<locked type="number">1</locked>
+				<name type="string">Arcane Bloodline</name>
+				<text type="formattedtext">
+					<p>Your family has always been skilled in the eldritch art of magic. While many of your relatives were accomplished wizards, your powers developed without the need for study and practice.</p>
+					<p><b>Class Skill: </b>Knowledge (any one).</p>
+					<p><b>Bonus Spells: </b>identify (3rd), invisibility (5th), dispel magic (7th), dimension door (9th), overland flight (11th), true seeing (13th), greater teleport (15th), power word stun (17th), wish (19th).</p>
+					<p><b>Bonus Feats: </b>Combat Casting, Improved Counterspell, Improved Initiative, Iron Will, Scribe Scroll, Skill Focus (Knowledge [arcana]), Spell Focus, Still Spell.</p>
+					<p><b>Bloodline Arcana: </b>Whenever you apply a metamagic feat to a spell that increases the slot used by at least one level, increase the spell's DC by +1. This bonus does not stack with itself and does not apply to spells modified by the Heighten Spell feat.</p>
+					<p><b>Bloodline Powers: </b>Magic comes naturally to you, but as you gain levels you must take care to prevent the power from overwhelming you.</p>
+					<p><b>Arcane Bond (Su): </b>At 1st level, you gain an arcane bond, as a wizard equal to your sorcerer level. Your sorcerer levels stack with any wizard levels you possess when determining the powers of your familiar or bonded object. This ability does not allow you to have both a familiar and a bonded item. Rules for arcane bonds appear on page 78. Once per day, your bonded item allows you to cast any one of your spells known (unlike a wizard's bonded item, which allows him to cast any one spell in his spellbook).</p>
+					<p><b>Metamagic Adept (Ex): </b>At 3rd level, you can apply any one metamagic feat you know to a spell you are about to cast without increasing the casting time. You must still expend a higher-level spell slot to cast this spell. You can use this ability once per day at 3rd level and one additional time per day for every four sorcerer levels you possess beyond 3rd, up to five times per day at 19th level. At 20th level, this ability is replaced by arcane apotheosis.</p>
+					<p><b>New Arcana (Ex): </b>At 9th level, you can add any one spell from the sorcerer/wizard spell list to your list of spells known. This spell must be of a level that you are capable of casting. You can also add one additional spell at 13th level and 17th level.</p>
+					<p><b>School Power (Ex): </b>At 15th level, pick one school of magic. The DC for any spells you cast from that school increases by +2. This bonus stacks with the bonus granted by Spell Focus.</p>
+					<p><b>Arcane Apotheosis (Ex): </b>At 20th level, your body surges with arcane power. You can add any metamagic feats that you know to your spells without increasing their casting time, although you must still expend higher-level spell slots. Whenever you use magic items that require charges, you can instead expend spell slots to power the item. For every three levels of spell slots that you expend, you consume one less charge when using a magic item that expends charges.</p>
+				</text>
+				<type type="string">Sorcerer Bloodline</type>
+			</id-00008>
+			<id-00009>
+				<abilitytype type="string">Su</abilitytype>
+				<locked type="number">1</locked>
+				<name type="string">Arcane Bond (Dragon)</name>
+				<text type="formattedtext">
+					<p>At 1st level, you gain an arcane bond, as a wizard equal to your sorcerer level. Your sorcerer levels stack with any wizard levels you possess when determining the powers of your familiar or bonded object. This ability does not allow you to have both a familiar and a bonded item.</p>
+				</text>
+				<type type="string">Sorcerer Bloodline Power</type>
+			</id-00009>
+			<id-00010>
+				<abilitytype type="string">Ex</abilitytype>
+				<locked type="number">1</locked>
+				<name type="string">Metamagic Adept</name>
+				<text type="formattedtext">
+					<p>At 3rd level, you can apply any one metamagic feat you know to a spell you are about to cast without increasing the casting time. You must still expend a higher-level spell slot to cast this spell. You can use this ability once per day at 3rd level and one additional time per day for every four sorcerer levels you possess beyond 3rd, up to five times per day at 19th level. At 20th level, this ability is replaced by arcane apotheosis.</p>
+				</text>
+				<type type="string">Sorcerer Bloodline Power</type>
+			</id-00010>
+		</specialabilitylist>
+		<speed>
+			<armor type="number">0</armor>
+			<base type="number">30</base>
+			<final type="number">30</final>
+			<misc type="number">0</misc>
+			<temporary type="number">0</temporary>
+			<total type="number">30</total>
+		</speed>
+		<spellmode type="string">preparation</spellmode>
+		<spellset>
+			<id-00001>
+				<availablelevel0 type="number">1</availablelevel0>
+				<availablelevel1 type="number">8</availablelevel1>
+				<availablelevel2 type="number">7</availablelevel2>
+				<availablelevel3 type="number">5</availablelevel3>
+				<availablelevel4 type="number">0</availablelevel4>
+				<availablelevel5 type="number">0</availablelevel5>
+				<availablelevel6 type="number">0</availablelevel6>
+				<availablelevel7 type="number">0</availablelevel7>
+				<availablelevel8 type="number">0</availablelevel8>
+				<availablelevel9 type="number">0</availablelevel9>
+				<castertype type="string">spontaneous</castertype>
+				<cc>
+					<misc type="number">0</misc>
+				</cc>
+				<cl type="number">7</cl>
+				<dc>
+					<ability type="string">charisma</ability>
+					<abilitymod type="number">5</abilitymod>
+					<misc type="number">0</misc>
+					<total type="number">15</total>
+				</dc>
+				<label type="string">Sorcerer</label>
+				<levels>
+					<level0>
+						<level type="number">0</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+							<id-00001>
+								<actions>
+									<id-00001>
+										<atktype type="string">rtouch</atktype>
+										<srnotallowed type="number">1</srnotallowed>
+										<type type="string">cast</type>
+									</id-00001>
+									<id-00002>
+										<damagelist>
+											<id-00001>
+												<bonus type="number">0</bonus>
+												<dice type="dice">d3</dice>
+												<type type="string">acid</type>
+											</id-00001>
+										</damagelist>
+										<type type="string">damage</type>
+									</id-00002>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S</components>
+								<cost type="number">0</cost>
+								<description type="string">You fire a small orb of acid at the target. You must succeed on a ranged touch attack to hit your target. The orb deals 1d3 points of acid damage. This acid disappears after 1 round.</description>
+								<duration type="string">instantaneous</duration>
+								<effect type="string">Effect-one missile of acid</effect>
+								<level type="string">Arcanist 0, Inquisitor 0, Magus 0, Sorcerer 0, Summoner 0, Summoner UC 0, Wizard 0</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Acid Splash</name>
+								<prepared type="number">0</prepared>
+								<range type="string">Close (25 ft. + 5 ft./2 levels)</range>
+								<save type="string">none</save>
+								<school type="string">conjuration (creation) [acid]</school>
+								<shortdescription type="string">Orb deals 1d3 acid damage.</shortdescription>
+								<sr type="string">no</sr>
+							</id-00001>
+							<id-00002>
+								<actions>
+									<id-00001>
+										<srnotallowed type="number">1</srnotallowed>
+										<type type="string">cast</type>
+									</id-00001>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S</components>
+								<cost type="number">0</cost>
+								<description type="string">You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject.\n\n1st Round : Presence or absence of magical auras.\n\n2nd Round : Number of different magical auras and the power of the most potent aura.\n\n3rd Round : The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make Knowledge (arcana) skill checks to determine the school of magic involved in each. (Make one check per aura: DC 15 + spell level, or 15 + 1/2 caster level for a nonspell effect.) If the aura eminates from a magic item, you can attempt to identify its properties (see Spellcraft).\n\nMagical areas, multiple types of magic, or strong local magical emanations may distort or conceal weaker auras.\n\nAura Strength : An aura's power depends on a spell's functioning spell level or an item's caster level; see the accompanying table. If an aura falls into more than one category, detect magic indicates the stronger of the two.\n\nLingering Aura : A magical aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a magic item). If detect magic is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:\n\n\n\n[Original Strength] [Duration of Lingering Aura]\n[Faint] [1d6 rounds]\n[Moderate] [1d6 minutes]\n[Strong] [1d6 x 10 minutes]\n[Overwhelming] [1d6 days]\n\nOutsiders and elementals are not magical in themselves, but if they are summoned, the conjuration spell registers. Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.\n\nDetect magic can be made permanent with a permanency spell.\n\n\n\n[Spell or Object] [Aura Power]\n[Faint] [Moderate] [Strong] [Overwhelming]\n[Functioning spell (spell level)] [3rd or lower] [4th-6th] [7th-9th] [10th+ (deity-level)]\n[Magic item (caster level)] [5th or lower] [6th-11th] [12th-20th] [21st+ (artifact)]</description>
+								<duration type="string">concentration, up to 1 min./level (D)</duration>
+								<effect type="string">Area-cone-shaped emanation</effect>
+								<level type="string">Adept 0, Arcanist 0, Bard 0, Cleric 0, Druid 0, Hunter 0, Inquisitor 0, Magus 0, Medium 0, Mesmerist 0, Occultist 0, Oracle 0, Psychic 0, Shaman 0, Skald 0, Sorcerer 0, Spiritualist 0, Summoner 0, Summoner UC 0, Warpriest 0, Witch 0, Wizard 0</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Detect Magic</name>
+								<prepared type="number">0</prepared>
+								<range type="string">60 ft.</range>
+								<save type="string">none</save>
+								<school type="string">divination</school>
+								<shortdescription type="string">Detects spells and magic items within 60 ft.</shortdescription>
+								<sr type="string">no</sr>
+							</id-00002>
+							<id-00003>
+								<actions>
+									<id-00001>
+										<atktype type="string">rtouch</atktype>
+										<type type="string">cast</type>
+									</id-00001>
+									<id-00002>
+										<damagelist>
+											<id-00001>
+												<bonus type="number">0</bonus>
+												<dice type="dice">d6</dice>
+											</id-00001>
+										</damagelist>
+										<type type="string">damage</type>
+									</id-00002>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S</components>
+								<cost type="number">0</cost>
+								<description type="string">You direct a ray of positive energy. You must make a ranged touch attack to hit, and if the ray hits an undead creature, it deals 1d6 points of damage to it.</description>
+								<duration type="string">instantaneous</duration>
+								<effect type="string">Effect-ray</effect>
+								<level type="string">Arcanist 0, Inquisitor 0, Magus 0, Sorcerer 0, Wizard 0</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Disrupt Undead</name>
+								<prepared type="number">0</prepared>
+								<range type="string">Close (25 ft. + 5 ft./2 levels)</range>
+								<save type="string">none</save>
+								<school type="string">necromancy</school>
+								<shortdescription type="string">Deals 1d6 damage to one undead.</shortdescription>
+								<sr type="string">yes</sr>
+							</id-00003>
+							<id-00004>
+								<actions>
+									<id-00001>
+										<atkmod type="number">0</atkmod>
+										<clcmod type="number">0</clcmod>
+										<savedcmod type="number">2</savedcmod>
+										<savetype type="string">fortitude</savetype>
+										<srnotallowed type="number">0</srnotallowed>
+										<type type="string">cast</type>
+									</id-00001>
+									<id-00002>
+										<durdice type="dice"></durdice>
+										<durmod type="number">1</durmod>
+										<durunit type="string">minute</durunit>
+										<label type="string">Dazzled</label>
+										<type type="string">effect</type>
+									</id-00002>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V</components>
+								<cost type="number">0</cost>
+								<description type="string">This cantrip creates a burst of light. If you cause the light to burst in front of a single creature, that creature is dazzled for 1 minute unless it makes a successful Fortitude save. Sightless creatures, as well as creatures already dazzled, are not affected by flare .</description>
+								<duration type="string">instantaneous</duration>
+								<effect type="string">Effect-burst of light</effect>
+								<level type="string">Arcanist 0, Bard 0, Druid 0, Hunter 0, Magus 0, Medium 0, Mesmerist 0, Occultist 0, Psychic 0, Skald 0, Sorcerer 0, Wizard 0</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Flare</name>
+								<prepared type="number">0</prepared>
+								<range type="string">Close (25 ft. + 5 ft./2 levels)</range>
+								<save type="string">Fortitude negates</save>
+								<school type="string">evocation [light]</school>
+								<shortdescription type="string">Dazzles one creature (-1 on attack rolls).</shortdescription>
+								<sr type="string">yes</sr>
+							</id-00004>
+							<id-00005>
+								<actions>
+									<id-00001>
+										<srnotallowed type="number">1</srnotallowed>
+										<type type="string">cast</type>
+									</id-00001>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, M/DF (a firefly)</components>
+								<cost type="number">0</cost>
+								<description type="string">This spell causes a touched object to glow like a torch, shedding normal light in a 20-foot radius, and increasing the light level for an additional 20 feet by one step, up to normal light (darkness becomes dim light, and dim light becomes normal light). In an area of normal or bright light, this spell has no effect. The effect is immobile, but it can be cast on a movable object.\n\nYou can only have one light spell active at any one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled. If you make this spell permanent (through permanency or a similar effect), it does not count against this limit. Light can be used to counter or dispel any darkness spell of equal or lower spell level.</description>
+								<duration type="string">10 min./level</duration>
+								<effect type="string">Target-object touched</effect>
+								<level type="string">Adept 0, Arcanist 0, Bard 0, Cleric 0, Druid 0, Hunter 0, Inquisitor 0, Magus 0, Medium 0, Mesmerist 0, Occultist 0, Oracle 0, Psychic 0, Shaman 0, Skald 0, Sorcerer 0, Spiritualist 0, Summoner 0, Summoner UC 0, Warpriest 0, Witch 0, Wizard 0</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Light</name>
+								<prepared type="number">0</prepared>
+								<range type="string">touch</range>
+								<save type="string">none</save>
+								<school type="string">evocation [light]</school>
+								<shortdescription type="string">Object shines like a torch.</shortdescription>
+								<sr type="string">no</sr>
+							</id-00005>
+							<id-00006>
+								<actions>
+									<id-00001>
+										<atkmod type="number">0</atkmod>
+										<clcmod type="number">0</clcmod>
+										<savedcmod type="number">0</savedcmod>
+										<savetype type="string">fortitude</savetype>
+										<srnotallowed type="number">1</srnotallowed>
+										<type type="string">cast</type>
+									</id-00001>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S</components>
+								<cost type="number">0</cost>
+								<description type="string">Prestidigitations are minor tricks that novice spellcasters use for practice. Once cast, a prestidigitation spell enables you to perform simple magical effects for 1 hour. The effects are minor and have severe limitations. A prestidigitation can slowly lift 1 pound of material. It can color, clean, or soil items in a 1-foot cube each round. It can chill, warm, or flavor 1 pound of nonliving material. It cannot deal damage or affect the concentration of spellcasters. Prestidigitation can create small objects, but they look crude and artificial. The materials created by a prestidigitation spell are extremely fragile, and they cannot be used as tools, weapons, or spell components. Finally, prestidigitation lacks the power to duplicate any other spell effects. Any actual change to an object (beyond just moving, cleaning, or soiling it) persists only 1 hour.</description>
+								<duration type="string">1 hour</duration>
+								<effect type="string">Target, Effect, or Area-see text</effect>
+								<level type="string">Arcanist 0, Bard 0, Magus 0, Medium 0, Mesmerist 0, Psychic 0, Skald 0, Sorcerer 0, Wizard 0</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Prestidigitation</name>
+								<prepared type="number">0</prepared>
+								<range type="string">10 ft.</range>
+								<save type="string">see text</save>
+								<school type="string">universal</school>
+								<shortdescription type="string">Performs minor tricks.</shortdescription>
+								<sr type="string">no</sr>
+							</id-00006>
+							<id-00007>
+								<actions>
+									<id-00001>
+										<type type="string">cast</type>
+									</id-00001>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S, F (a clear crystal or mineral prism)</components>
+								<cost type="number">0</cost>
+								<description type="string">You can decipher magical inscriptions on objects-books, scrolls, weapons, and the like-that would otherwise be unintelligible. This deciphering does not normally invoke the magic contained in the writing, although it may do so in the case of a cursed or trapped scroll. Furthermore, once the spell is cast and you have read the magical inscription, you are thereafter able to read that particular writing without recourse to the use of read magic . You can read at the rate of one page (250 words) per minute. The spell allows you to identify a glyph of warding with a DC 13 Spellcraft check, a greater glyph of warding with a DC 16 Spellcraft check, or any symbol spell with a Spellcraft check (DC 10 + spell level).\n\nRead magic can be made permanent with a permanency spell.</description>
+								<duration type="string">10 min./level</duration>
+								<effect type="string">Target-you</effect>
+								<level type="string">Adept 0, Antipaladin 1, Arcanist 0, Bard 0, Cleric 0, Druid 0, Hunter 0, Inquisitor 0, Magus 0, Medium 0, Mesmerist 0, Occultist 0, Oracle 0, Paladin 1, Psychic 0, Ranger 1, Shaman 0, Skald 0, Sorcerer 0, Spiritualist 0, Summoner 0, Summoner UC 0, Warpriest 0, Witch 0, Wizard 0</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Read Magic</name>
+								<prepared type="number">0</prepared>
+								<range type="string">personal</range>
+								<school type="string">divination</school>
+								<shortdescription type="string">Read scrolls and spellbooks.</shortdescription>
+							</id-00007>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level0>
+					<level1>
+						<level type="number">1</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+							<id-00001>
+								<actions>
+									<id-00001>
+										<atkmod type="number">0</atkmod>
+										<clcmod type="number">0</clcmod>
+										<onmissdamage type="string">half</onmissdamage>
+										<savedcmod type="number">2</savedcmod>
+										<savetype type="string">reflex</savetype>
+										<srnotallowed type="number">0</srnotallowed>
+										<type type="string">cast</type>
+									</id-00001>
+									<id-00002>
+										<damagelist>
+											<id-00001>
+												<bonus type="number">0</bonus>
+												<dice type="dice">d4</dice>
+												<dicestat type="string">cl</dicestat>
+												<dicestatmax type="number">5</dicestatmax>
+												<type type="string">fire</type>
+											</id-00001>
+										</damagelist>
+										<type type="string">damage</type>
+									</id-00002>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S</components>
+								<cost type="number">1</cost>
+								<description type="string">A cone of searing flame shoots from your fingertips. Any creature in the area of the flames takes 1d4 points of fire damage per caster level (maximum 5d4). Flammable materials burn if the flames touch them. A character can extinguish burning items as a full-round action.</description>
+								<duration type="string">instantaneous</duration>
+								<effect type="string">Area-cone-shaped burst</effect>
+								<level type="string">Adept 1, Arcanist 1, Bloodrager 1, Magus 1, Occultist 1, Shaman 1, Sorcerer 1, Witch 1, Wizard 1</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Burning Hands</name>
+								<prepared type="number">0</prepared>
+								<range type="string">15 ft.</range>
+								<save type="string">Reflex half</save>
+								<school type="string">evocation [fire]</school>
+								<shortdescription type="string">1d4/level fire damage (max 5d4).</shortdescription>
+								<sr type="string">yes</sr>
+							</id-00001>
+							<id-00002>
+								<actions>
+									<id-00001>
+										<atkmod type="number">0</atkmod>
+										<clcmod type="number">0</clcmod>
+										<savedcmod type="number">0</savedcmod>
+										<savetype type="string">fortitude</savetype>
+										<srnotallowed type="number">0</srnotallowed>
+										<type type="string">cast</type>
+									</id-00001>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 round</castingtime>
+								<components type="string">V, S, M (powdered iron)</components>
+								<cost type="number">1</cost>
+								<description type="string">This spell causes instant growth of a humanoid creature, doubling its height and multiplying its weight by 8. This increase changes the creature's size category to the next larger one. The target gains a +2 size bonus to Strength, a -2 size penalty to Dexterity (to a minimum of 1), and a -1 penalty on attack rolls and AC due to its increased size.\n\nA humanoid creature whose size increases to Large has a space of 10 feet and a natural reach of 10 feet. This spell does not change the target's speed.\n\nIf insufficient room is available for the desired growth, the creature attains the maximum possible size and may make a Strength check (using its increased Strength) to burst any enclosures in the process. If it fails, it is constrained without harm by the materials enclosing it-the spell cannot be used to crush a creature by increasing its size.\n\nAll equipment worn or carried by a creature is similarly enlarged by the spell. Melee weapons affected by this spell deal more damage (see Table: Tiny and Large Weapon Damage). Other magical properties are not affected by this spell. Any enlarged item that leaves an enlarged creature's possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown and projectile weapons deal their normal damage. Magical properties of enlarged items are not increased by this spell.\n\nMultiple magical effects that increase size do not stack.\n\nEnlarge person counters and dispels reduce person .\n\nEnlarge person can be made permanent with a permanency spell.</description>
+								<duration type="string">1 min./level (D)</duration>
+								<effect type="string">Target-one humanoid creature</effect>
+								<level type="string">Alchemist 1, Arcanist 1, Bloodrager 1, Investigator 1, Magus 1, Medium 1, Occultist 1, Psychic 1, Red Mantis Assassin 1, Sorcerer 1, Summoner 1, Summoner UC 1, Witch 1, Wizard 1</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Enlarge Person</name>
+								<prepared type="number">0</prepared>
+								<range type="string">Close (25 ft. + 5 ft./2 levels)</range>
+								<save type="string">Fortitude negates</save>
+								<school type="string">transmutation</school>
+								<shortdescription type="string">Humanoid creature doubles in size.</shortdescription>
+								<sr type="string">yes</sr>
+							</id-00002>
+							<id-00003>
+								<actions>
+									<id-00001>
+										<srnotallowed type="number">1</srnotallowed>
+										<type type="string">cast</type>
+									</id-00001>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S, M (wine stirred with an owl's feather)</components>
+								<cost type="number">1</cost>
+								<description type="string">This spell functions as detect magic , except that it gives you a +10 enhancement bonus on Spellcraft checks made to identify the properties and command words of magic items in your possession. This spell does not allow you to identify artifacts.</description>
+								<duration type="string">3 rounds/level (D)</duration>
+								<effect type="string">Area-cone-shaped emanation</effect>
+								<level type="string">Alchemist 1, Arcanist 1, Bard 1, Investigator 1, Medium 1, Occultist 1, Psychic 1, Skald 1, Sorcerer 1, Spiritualist 1, Summoner 1, Summoner UC 1, Witch 1, Wizard 1</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Identify</name>
+								<prepared type="number">0</prepared>
+								<range type="string">60 ft.</range>
+								<save type="string">none</save>
+								<school type="string">divination</school>
+								<shortdescription type="string">Gives +10 bonus to identify magic items.</shortdescription>
+								<sr type="string">no</sr>
+							</id-00003>
+							<id-00004>
+								<actions>
+									<id-00001>
+										<srnotallowed type="number">1</srnotallowed>
+										<type type="string">cast</type>
+									</id-00001>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S, F (a piece of cured leather)</components>
+								<cost type="number">1</cost>
+								<description type="string">An invisible but tangible field of force surrounds the subject of a mage armor spell, providing a +4 armor bonus to AC.\n\nUnlike mundane armor, mage armor entails no armor check penalty, arcane spell failure chance, or speed reduction. Since mage armor is made of force, incorporeal creatures can't bypass it the way they do normal armor.</description>
+								<duration type="string">1 hour/level (D)</duration>
+								<effect type="string">Target-creature touched</effect>
+								<level type="string">Arcanist 1, Bloodrager 1, Occultist 1, Psychic 1, Sorcerer 1, Spiritualist 1, Summoner 1, Summoner UC 1, Witch 1, Wizard 1</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Mage Armor</name>
+								<prepared type="number">0</prepared>
+								<range type="string">touch</range>
+								<save type="string">Will negates (harmless)</save>
+								<school type="string">conjuration (creation) [force]</school>
+								<shortdescription type="string">Gives subject +4 armor bonus.</shortdescription>
+								<sr type="string">no</sr>
+							</id-00004>
+							<id-00005>
+								<actions>
+									<id-00001>
+										<type type="string">cast</type>
+									</id-00001>
+									<id-00002>
+										<damagelist>
+											<id-00001>
+												<bonus type="number">1</bonus>
+												<dice type="dice">d4</dice>
+												<type type="string">force</type>
+											</id-00001>
+										</damagelist>
+										<type type="string">damage</type>
+									</id-00002>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S</components>
+								<cost type="number">1</cost>
+								<description type="string">A missile of magical energy darts forth from your fingertip and strikes its target, dealing 1d4+1 points of force damage.\n\nThe missile strikes unerringly, even if the target is in melee combat, so long as it has less than total cover or total concealment. Specific parts of a creature can't be singled out. Objects are not damaged by the spell.\n\nFor every two caster levels beyond 1st, you gain an additional missile-two at 3rd level, three at 5th, four at 7th, and the maximum of five missiles at 9th level or higher. If you shoot multiple missiles, you can have them strike a single creature or several creatures. A single missile can strike only one creature. You must designate targets before you check for spell resistance or roll damage.</description>
+								<duration type="string">instantaneous</duration>
+								<effect type="string">Targets-up to five creatures, no two of which can be more than 15 ft. apart</effect>
+								<level type="string">Arcanist 1, Bloodrager 1, Magus 1, Psychic 1, Sorcerer 1, Wizard 1</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Magic Missile</name>
+								<prepared type="number">0</prepared>
+								<range type="string">Medium (100 ft. + 10 ft./level)</range>
+								<save type="string">none</save>
+								<school type="string">evocation [force]</school>
+								<shortdescription type="string">1d4+1 damage; +1 missile per two levels above 1st (max 5).</shortdescription>
+								<sr type="string">yes</sr>
+							</id-00005>
+							<id-00006>
+								<actions>
+									<id-00001>
+										<type type="string">cast</type>
+									</id-00001>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S</components>
+								<cost type="number">1</cost>
+								<description type="string">Shield creates an invisible shield of force that hovers in front of you. It negates magic missile attacks directed at you. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no armor check penalty or arcane spell failure chance.</description>
+								<duration type="string">1 min./level (D)</duration>
+								<effect type="string">Target-you</effect>
+								<level type="string">Alchemist 1, Arcanist 1, Bloodrager 1, Investigator 1, Magus 1, Occultist 1, Psychic 1, Sorcerer 1, Spiritualist 1, Summoner 1, Summoner UC 1, Wizard 1</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Shield</name>
+								<prepared type="number">0</prepared>
+								<range type="string">personal</range>
+								<school type="string">abjuration [force]</school>
+								<shortdescription type="string">Invisible disc gives +4 to AC, blocks</shortdescription>
+							</id-00006>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level1>
+					<level2>
+						<level type="number">2</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+							<id-00003>
+								<actions>
+									<id-00001>
+										<savetype type="string">will</savetype>
+										<srnotallowed type="number">1</srnotallowed>
+										<type type="string">cast</type>
+									</id-00001>
+									<id-00002>
+										<durmult type="number">1</durmult>
+										<label type="string">Blinded</label>
+										<type type="string">effect</type>
+									</id-00002>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S, M (ground mica)</components>
+								<cost type="number">3</cost>
+								<description type="string">A cloud of golden particles covers everyone and everything in the area, causing creatures to become blinded and visibly outlining invisible things for the duration of the spell. All within the area are covered by the dust, which cannot be removed and continues to sparkle until it fades. Each round at the end of their turn blinded creatures may attempt new saving throws to end the blindness effect.\n\nAny creature covered by the dust takes a -40 penalty on Stealth checks.</description>
+								<duration type="string">1 round/level</duration>
+								<effect type="string">Area-creatures and objects within 10-ft.-radius spread</effect>
+								<level type="string">Arcanist 2, Bard 2, Bloodrager 2, Magus 2, Mesmerist 2, Occultist 2, Skald 2, Sorcerer 2, Summoner 2, Summoner UC 2, Witch 2, Wizard 2</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Glitterdust</name>
+								<prepared type="number">0</prepared>
+								<range type="string">Medium (100 ft. + 10 ft./level)</range>
+								<save type="string">Will negates (blinding only)</save>
+								<school type="string">conjuration (creation)</school>
+								<shortdescription type="string">Blinds creatures, outlines invisible creatures.</shortdescription>
+								<sr type="string">no</sr>
+							</id-00003>
+							<id-00004>
+								<actions>
+									<id-00001>
+										<srnotallowed type="number">1</srnotallowed>
+										<type type="string">cast</type>
+									</id-00001>
+									<id-00002>
+										<durmult type="number">1</durmult>
+										<durunit type="string">minute</durunit>
+										<label type="string">Invisible</label>
+										<type type="string">effect</type>
+									</id-00002>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S, M/DF (an eyelash encased in gum arabic)</components>
+								<cost type="number">3</cost>
+								<description type="string">The creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\n\nItems dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light can become so (thus, the effect is that of a light with no visible source). Any part of an item that the subject carries but that extends more than 10 feet from it becomes visible.\n\nOf course, the subject is not magically silenced, and certain other conditions can render the recipient detectable (such as swimming in water or stepping in a puddle). If a check is required, a stationary invisible creature has a +40 bonus on its Stealth checks. This bonus is reduced to +20 if the creature is moving. The spell ends if the subject attacks any creature. For purposes of this spell, an attack includes any spell targeting a foe or whose area or effect includes a foe. Exactly who is a foe depends on the invisible character's perceptions. Actions directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. Thus, an invisible being can open doors, talk, eat, climb stairs, summon monsters and have them attack, cut the ropes holding a rope bridge while enemies are on the bridge, remotely trigger traps, open a portcullis to release attack dogs, and so forth. If the subject attacks directly, however, it immediately becomes visible along with all its gear. Spells such as bless that specifically affect allies but not foes are not attacks for this purpose, even when they include foes in their area.\n\nInvisibility can be made permanent (on objects only) with a permanency spell.</description>
+								<duration type="string">1 min./level (D)</duration>
+								<effect type="string">Target-you or a creature or object weighing no more than 100 lbs./level</effect>
+								<level type="string">Adept 2, Alchemist 2, Antipaladin 2, Arcanist 2, Bard 2, Inquisitor 2, Investigator 2, Magus 2, Medium 2, Mesmerist 2, Occultist 2, Psychic 2, Red Mantis Assassin 2, Skald 2, Sorcerer 2, Spiritualist 2, Summoner 2, Summoner UC 2, Wizard 2</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Invisibility</name>
+								<prepared type="number">0</prepared>
+								<range type="string">personal or touch</range>
+								<save type="string">Will negates (harmless) or Will negates (harmless, object)</save>
+								<school type="string">illusion (glamer)</school>
+								<shortdescription type="string">Subject is invisible for 1 min./level or until it attacks.</shortdescription>
+								<sr type="string">yes (harmless) or yes (harmless, object)</sr>
+							</id-00004>
+							<id-00005>
+								<actions>
+									<id-00001>
+										<atktype type="string">rtouch</atktype>
+										<type type="string">cast</type>
+									</id-00001>
+									<id-00002>
+										<damagelist>
+											<id-00001>
+												<bonus type="number">0</bonus>
+												<dice type="dice">d6,d6,d6,d6</dice>
+												<type type="string">fire</type>
+											</id-00001>
+										</damagelist>
+										<type type="string">damage</type>
+									</id-00002>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S</components>
+								<cost type="number">3</cost>
+								<description type="string">You blast your enemies with a searing beam of fire. You may fire one ray, plus one additional ray for every four levels beyond 3rd (to a maximum of three rays at 11th level). Each ray requires a ranged touch attack to hit and deals 4d6 points of fire damage. The rays may be fired at the same or different targets, but all rays must be aimed at targets within 30 feet of each other and fired simultaneously.</description>
+								<duration type="string">instantaneous</duration>
+								<effect type="string">Effect-one or more rays</effect>
+								<level type="string">Adept 2, Arcanist 2, Bloodrager 2, Magus 2, Sorcerer 2, Wizard 2</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Scorching Ray</name>
+								<prepared type="number">0</prepared>
+								<range type="string">Close (25 ft. + 5 ft./2 levels)</range>
+								<save type="string">none</save>
+								<school type="string">evocation [fire]</school>
+								<shortdescription type="string">Ranged touch attack deals 4d6 fire damage, + 1 ray/four levels (max 3).</shortdescription>
+								<sr type="string">yes</sr>
+							</id-00005>
+							<id-00006>
+								<actions>
+									<id-00001>
+										<savetype type="string">reflex</savetype>
+										<srnotallowed type="number">1</srnotallowed>
+										<type type="string">cast</type>
+									</id-00001>
+									<id-00002>
+										<damagelist>
+											<id-00001>
+												<bonus type="number">0</bonus>
+												<dice type="dice">d4,d4</dice>
+												<type type="string">fire</type>
+											</id-00001>
+										</damagelist>
+										<type type="string">damage</type>
+									</id-00002>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S, M (spider web)</components>
+								<cost type="number">3</cost>
+								<description type="string">Web creates a many-layered mass of strong, sticky strands. These strands trap those caught in them. The strands are similar to spiderwebs but far larger and tougher. These masses must be anchored to two or more solid and diametrically opposed points or else the web collapses upon itself and disappears. Creatures caught within a web become grappled by the sticky fibers. Attacking a creature in a web doesn't cause you to become grappled.\n\nAnyone in the effect's area when the spell is cast must make a Reflex save. If this save succeeds, the creature is inside the web but is otherwise unaffected. If the save fails, the creature gains the grappled condition, but can break free by making a combat maneuver check or Escape Artist check as a standard action against the DC of this spell. The entire area of the web is considered difficult terrain. Anyone moving through the webs must make a combat maneuver check or Escape Artist check as part of their move action, with a DC equal to the spell's DC. Creatures that fail lose their movement and become grappled in the first square of webbing that they enter.\n\nIf you have at least 5 feet of web between you and an opponent, it provides cover. If you have at least 20 feet of web between you, it provides total cover.\n\nThe strands of a web spell are flammable. A flaming weapon can slash them away as easily as a hand brushes away cobwebs. Any fire can set the webs alight and burn away one 5-foot square in 1 round. All creatures within flaming webs take 2d4 points of fire damage from the flames.\n\nWeb can be made permanent with a permanency spell. A permanent web that is damaged (but not destroyed) regrows in 10 minutes.</description>
+								<duration type="string">10 min./level (D)</duration>
+								<effect type="string">Effect-webs in a 20-ft.-radius spread</effect>
+								<level type="string">Adept 2, Arcanist 2, Magus 2, Sorcerer 2, Witch 2, Wizard 2</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Web</name>
+								<prepared type="number">0</prepared>
+								<range type="string">Medium (100 ft. + 10 ft./level)</range>
+								<save type="string">Reflex negates; see text</save>
+								<school type="string">conjuration (creation)</school>
+								<shortdescription type="string">Fills 20-ft.-radius spread with sticky spiderwebs that can grapple foes and impair movement.</shortdescription>
+								<sr type="string">no</sr>
+							</id-00006>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level2>
+					<level3>
+						<level type="number">3</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+							<id-00001>
+								<actions>
+									<id-00001>
+										<srnotallowed type="number">1</srnotallowed>
+										<type type="string">cast</type>
+									</id-00001>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S</components>
+								<cost type="number">5</cost>
+								<description type="string">You can use dispel magic to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by dispel magic . Dispel magic can dispel (but not counter) spell-like effects just as it does spells. The effect of a spell with an instantaneous duration can't be dispelled, because the magical effect is already over before the dispel magic can take effect.\n\nYou choose to use dispel magic in one of two ways: a targeted dispel or a counterspell.\n\nTargeted Dispel : One object, creature, or spell is the target of the dispel magic spell. You make one dispel check (1d20 + your caster level) and compare that to the spell with highest caster level (DC = 11 + the spell's caster level). If successful, that spell ends. If not, compare the same result to the spell with the next highest caster level. Repeat this process until you have dispelled one spell affecting the target, or you have failed to dispel every spell.\n\nFor example, a 7th-level caster casts dispel magic , targeting a creature affected by stoneskin (caster level 12th) and fly (caster level 6th). The caster level check results in a 19. This check is not high enough to end the stoneskin (which would have required a 23 or higher), but it is high enough to end the fly (which only required a 17). Had the dispel check resulted in a 23 or higher, the stoneskin would have been dispelled, leaving the fly intact. Had the dispel check been a 16 or less, no spells would have been affected.\n\nYou can also use a targeted dispel to specifically end one spell affecting the target or one spell affecting an area (such as a wall of fire ). You must name the specific spell effect to be targeted in this way. If your caster level check is equal to or higher than the DC of that spell, it ends. No other spells or effects on the target are dispelled if your check is not high enough to end the targeted effect.\n\nIf you target an object or creature that is the effect of an ongoing spell (such as a monster summoned by summon monster ), you make a dispel check to end the spell that conjured the object or creature.\n\nIf the object that you target is a magic item, you make a dispel check against the item's caster level (DC = 11 + the item's caster level). If you succeed, all the item's magical properties are suppressed for 1d4 rounds, after which the item recovers its magical properties. A suppressed item becomes nonmagical for the duration of the effect. An interdimensional opening (such as a bag of holding) is temporarily closed. A magic item's physical properties are unchanged: A suppressed magic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal magic such as this.\n\nYou automatically succeed on your dispel check against any spell that you cast yourself.\n\nCounterspell : When dispel magic is used in this way, the spell targets a spellcaster and is cast as a counterspell. Unlike a true counterspell, however, dispel magic may not work; you must make a dispel check to counter the other spellcaster's spell.</description>
+								<duration type="string">instantaneous</duration>
+								<effect type="string">Target or Area-one spellcaster, creature, or object</effect>
+								<level type="string">Antipaladin 3, Arcanist 3, Bard 3, Cleric 3, Druid 4, Hunter 4, Inquisitor 3, Magus 3, Medium 3, Mesmerist 3, Occultist 3, Oracle 3, Paladin 3, Psychic 3, Shaman 3, Skald 3, Sorcerer 3, Spiritualist 3, Summoner 3, Summoner UC 3, Warpriest 3, Witch 3, Wizard 3</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Dispel Magic</name>
+								<prepared type="number">0</prepared>
+								<range type="string">Medium (100 ft. + 10 ft./level)</range>
+								<save type="string">none</save>
+								<school type="string">abjuration</school>
+								<shortdescription type="string">Cancels one magical spell or effect.</shortdescription>
+								<sr type="string">no</sr>
+							</id-00001>
+							<id-00002>
+								<actions>
+									<id-00001>
+										<srnotallowed type="number">1</srnotallowed>
+										<type type="string">cast</type>
+									</id-00001>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S, M (a shaving of licorice root)</components>
+								<cost type="number">5</cost>
+								<description type="string">The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\n\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast a second spell or otherwise take an extra action in the round.)\n\nA hasted creature gains a +1 bonus on attack rolls and a +1 dodge bonus to AC and Reflex saves. Any condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses.\n\nAll of the hasted creature's modes of movement (including land movement, burrow, climb, fly, and swim) increase by 30 feet, to a maximum of twice the subject's normal speed using that form of movement. This increase counts as an enhancement bonus, and it affects the creature's jumping distance as normal for increased speed. Multiple haste effects don't stack. Haste dispels and counters slow .</description>
+								<duration type="string">1 round/level</duration>
+								<effect type="string">Targets-one creature/level, no two of which can be more than 30 ft. apart</effect>
+								<level type="string">Alchemist 3, Arcanist 3, Bard 3, Bloodrager 3, Investigator 3, Magus 3, Medium 2, Occultist 3, Psychic 3, Red Mantis Assassin 3, Skald 3, Sorcerer 3, Spiritualist 3, Summoner 2, Summoner UC 3, Wizard 3</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Haste</name>
+								<prepared type="number">0</prepared>
+								<range type="string">Close (25 ft. + 5 ft./2 levels)</range>
+								<save type="string">Fortitude negates (harmless)</save>
+								<school type="string">transmutation</school>
+								<shortdescription type="string">One creature/level moves faster, receives +1 on attack rolls, AC, and Reflex saves.</shortdescription>
+								<sr type="string">yes (harmless)</sr>
+							</id-00002>
+							<id-00003>
+								<actions>
+									<id-00001>
+										<atkmod type="number">0</atkmod>
+										<clcmod type="number">0</clcmod>
+										<onmissdamage type="string">half</onmissdamage>
+										<savedcmod type="number">2</savedcmod>
+										<savetype type="string">reflex</savetype>
+										<srnotallowed type="number">0</srnotallowed>
+										<type type="string">cast</type>
+									</id-00001>
+									<id-00002>
+										<damagelist>
+											<id-00001>
+												<bonus type="number">0</bonus>
+												<dice type="dice">d6</dice>
+												<dicestat type="string">cl</dicestat>
+												<dicestatmax type="number">10</dicestatmax>
+												<type type="string">electricity</type>
+											</id-00001>
+										</damagelist>
+										<type type="string">damage</type>
+									</id-00002>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S, M (fur and a glass rod)</components>
+								<cost type="number">5</cost>
+								<description type="string">You release a powerful stroke of electrical energy that deals 1d6 points of electricity damage per caster level (maximum 10d6) to each creature within its area. The bolt begins at your fingertips.\n\nThe lightning bolt sets fire to combustibles and damages objects in its path. It can melt metals with a low melting point, such as lead, gold, copper, silver, or bronze. If the damage caused to an interposing barrier shatters or breaks through it, the bolt may continue beyond the barrier if the spell's range permits; otherwise, it stops at the barrier just as any other spell effect does.</description>
+								<duration type="string">instantaneous</duration>
+								<effect type="string">Area-120-ft. line</effect>
+								<level type="string">Adept 3, Arcanist 3, Bloodrager 3, Magus 3, Occultist 3, Sorcerer 3, Witch 3, Wizard 3</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Lightning Bolt</name>
+								<prepared type="number">0</prepared>
+								<range type="string">120 ft.</range>
+								<save type="string">Reflex half</save>
+								<school type="string">evocation [electricity]</school>
+								<shortdescription type="string">Electricity deals 1d6/level damage.</shortdescription>
+								<sr type="string">yes</sr>
+							</id-00003>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level3>
+					<level4>
+						<level type="number">4</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level4>
+					<level5>
+						<level type="number">5</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level5>
+					<level6>
+						<level type="number">6</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level6>
+					<level7>
+						<level type="number">7</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level7>
+					<level8>
+						<level type="number">8</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level8>
+					<level9>
+						<level type="number">9</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level9>
+				</levels>
+				<points type="number">0</points>
+				<pointsused type="number">0</pointsused>
+				<sp type="number">0</sp>
+			</id-00001>
+			<id-00003>
+				<availablelevel0 type="number">0</availablelevel0>
+				<availablelevel1 type="number">3</availablelevel1>
+				<availablelevel2 type="number">1</availablelevel2>
+				<availablelevel3 type="number">2</availablelevel3>
+				<availablelevel4 type="number">0</availablelevel4>
+				<availablelevel5 type="number">0</availablelevel5>
+				<availablelevel6 type="number">0</availablelevel6>
+				<availablelevel7 type="number">0</availablelevel7>
+				<availablelevel8 type="number">0</availablelevel8>
+				<availablelevel9 type="number">0</availablelevel9>
+				<castertype type="string">spontaneous</castertype>
+				<cc>
+					<misc type="number">0</misc>
+				</cc>
+				<cl type="number">7</cl>
+				<dc>
+					<abilitymod type="number">0</abilitymod>
+					<misc type="number">0</misc>
+					<total type="number">10</total>
+				</dc>
+				<label type="string">Potions / Scrolls</label>
+				<levels>
+					<level0>
+						<level type="number">0</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level0>
+					<level1>
+						<level type="number">1</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+							<id-00001>
+								<actions>
+									<id-00001>
+										<srnotallowed type="number">1</srnotallowed>
+										<type type="string">cast</type>
+									</id-00001>
+									<id-00002>
+										<heallist>
+											<id-00001>
+												<dice type="dice">d8</dice>
+												<stat type="string">cl</stat>
+												<statmax type="number">5</statmax>
+												<statmult type="number">1</statmult>
+											</id-00001>
+										</heallist>
+										<type type="string">heal</type>
+									</id-00002>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S</components>
+								<cost type="number">1</cost>
+								<description type="string">When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.</description>
+								<duration type="string">instantaneous</duration>
+								<effect type="string">Target-creature touched</effect>
+								<level type="string">Adept 1, Alchemist 1, Bard 1, Cleric 1, Druid 1, Hunter 1, Inquisitor 1, Investigator 1, Occultist 1, Oracle 1, Paladin 1, Ranger 2, Shaman 1, Skald 1, Spiritualist 1, Warpriest 1, Witch 1</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Potion Cure Light Wounds</name>
+								<prepared type="number">0</prepared>
+								<range type="string">touch</range>
+								<save type="string">Will half (harmless)</save>
+								<school type="string">conjuration (healing)</school>
+								<shortdescription type="string">Cures 1d8 damage + 1/level (max +5).</shortdescription>
+								<sr type="string">yes (harmless); see text</sr>
+							</id-00001>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level1>
+					<level2>
+						<level type="number">2</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+							<id-00001>
+								<actions>
+									<id-00001>
+										<type type="string">cast</type>
+									</id-00001>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S, M (pinch of cat fur)</components>
+								<cost type="number">3</cost>
+								<description type="string">The transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4 enhancement bonus to Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the Dexterity modifier.</description>
+								<duration type="string">1 min./level</duration>
+								<effect type="string">Target-creature touched</effect>
+								<level type="string">Adept 2, Alchemist 2, Arcanist 2, Bard 2, Bloodrager 2, Druid 2, Hunter 2, Investigator 2, Magus 2, Medium 2, Mesmerist 2, Psychic 2, Ranger 2, Red Mantis Assassin 2, Skald 2, Sorcerer 2, Summoner 2, Summoner UC 2, Wizard 2</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Potion Cat's Grace</name>
+								<prepared type="number">0</prepared>
+								<range type="string">touch</range>
+								<save type="string">Will negates (harmless)</save>
+								<school type="string">transmutation</school>
+								<shortdescription type="string">Subject gains +4 to Dex for 1 min./level.</shortdescription>
+								<sr type="string">yes</sr>
+							</id-00001>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level2>
+					<level3>
+						<level type="number">3</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+							<id-00002>
+								<actions>
+									<id-00001>
+										<atktype type="string">rtouch</atktype>
+										<onmissdamage type="string">half</onmissdamage>
+										<savetype type="string">reflex</savetype>
+										<type type="string">cast</type>
+									</id-00001>
+									<id-00002>
+										<damagelist>
+											<id-00001>
+												<bonus type="number">0</bonus>
+												<dice type="dice">d6</dice>
+												<dicestat type="string">cl</dicestat>
+												<dicestatmax type="number">10</dicestatmax>
+												<type type="string">fire</type>
+											</id-00001>
+										</damagelist>
+										<type type="string">damage</type>
+									</id-00002>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S, M (a ball of bat guano and sulfur)</components>
+								<cost type="number">5</cost>
+								<description type="string">A fireball spell generates a searing explosion of flame that detonates with a low roar and deals 1d6 points of fire damage per caster level (maximum 10d6) to every creature within the area. Unattended objects also take this damage. The explosion creates almost no pressure.\n\nYou point your finger and determine the range (distance and height) at which the fireball is to burst. A glowing, pea-sized bead streaks from the pointing digit and, unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, blossoms into the fireball at that point. An early impact results in an early detonation. If you attempt to send the bead through a narrow passage, such as through an arrow slit, you must &quot;hit&quot; the opening with a ranged touch attack, or else the bead strikes the barrier and detonates prematurely.\n\nThe fireball sets fire to combustibles and damages objects in the area. It can melt metals with low melting points, such as lead, gold, copper, silver, and bronze. If the damage caused to an interposing barrier shatters or breaks through it, the fireball may continue beyond the barrier if the area permits; otherwise it stops at the barrier just as any other spell effect does.</description>
+								<duration type="string">instantaneous</duration>
+								<effect type="string">Area-20-ft.-radius spread</effect>
+								<level type="string">Arcanist 3, Bloodrager 3, Magus 3, Occultist 3, Sorcerer 3, Wizard 3</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Scroll of Fireball</name>
+								<prepared type="number">0</prepared>
+								<range type="string">Long (400 ft. + 40 ft./level)</range>
+								<save type="string">Reflex half</save>
+								<school type="string">evocation [fire]</school>
+								<shortdescription type="string">1d6 damage per level, 20-ft. radius.</shortdescription>
+								<sr type="string">yes</sr>
+							</id-00002>
+							<id-00003>
+								<actions>
+									<id-00001>
+										<srnotallowed type="number">1</srnotallowed>
+										<type type="string">cast</type>
+									</id-00001>
+									<id-00002>
+										<damagelist>
+											<id-00001>
+												<bonus type="number">0</bonus>
+												<dice type="dice">d6</dice>
+											</id-00001>
+										</damagelist>
+										<type type="string">damage</type>
+									</id-00002>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S, F (a wing feather)</components>
+								<cost type="number">5</cost>
+								<description type="string">The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load). It can ascend at half speed and descend at double speed, and its maneuverability is good. Using a fly spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can charge but not run, and it cannot carry aloft more weight than its maximum load, plus any armor it wears. The subject gains a bonus on Fly skill checks equal to 1/2 your caster level.\n\nShould the spell duration expire while the subject is still aloft, the magic fails slowly. The subject floats downward 60 feet per round for 1d6 rounds. If it reaches the ground in that amount of time, it lands safely. If not, it falls the rest of the distance, taking 1d6 points of damage per 10 feet of fall. Since dispelling a spell effectively ends it, the subject also descends safely in this way if the fly spell is dispelled, but not if it is negated by an antimagic field .</description>
+								<duration type="string">1 min./level</duration>
+								<effect type="string">Target-creature touched</effect>
+								<level type="string">Alchemist 3, Arcanist 3, Bloodrager 3, Investigator 3, Magus 3, Medium 3, Occultist 3, Psychic 3, Red Mantis Assassin 3, Shaman 3, Sorcerer 3, Spiritualist 3, Summoner 3, Summoner UC 3, Witch 3, Wizard 3</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Scroll of Fly</name>
+								<prepared type="number">0</prepared>
+								<range type="string">touch</range>
+								<save type="string">Will negates (harmless)</save>
+								<school type="string">transmutation</school>
+								<shortdescription type="string">Subject flies at speed of 60 ft.</shortdescription>
+								<sr type="string">yes (harmless)</sr>
+							</id-00003>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level3>
+					<level4>
+						<level type="number">4</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level4>
+					<level5>
+						<level type="number">5</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level5>
+					<level6>
+						<level type="number">6</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level6>
+					<level7>
+						<level type="number">7</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level7>
+					<level8>
+						<level type="number">8</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level8>
+					<level9>
+						<level type="number">9</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level9>
+				</levels>
+				<points type="number">0</points>
+				<pointsused type="number">0</pointsused>
+				<sp type="number">0</sp>
+			</id-00003>
+			<id-00004>
+				<availablelevel0 type="number">0</availablelevel0>
+				<availablelevel1 type="number">50</availablelevel1>
+				<availablelevel2 type="number">0</availablelevel2>
+				<availablelevel3 type="number">0</availablelevel3>
+				<availablelevel4 type="number">0</availablelevel4>
+				<availablelevel5 type="number">0</availablelevel5>
+				<availablelevel6 type="number">0</availablelevel6>
+				<availablelevel7 type="number">0</availablelevel7>
+				<availablelevel8 type="number">0</availablelevel8>
+				<availablelevel9 type="number">0</availablelevel9>
+				<castertype type="string">spontaneous</castertype>
+				<cc>
+					<misc type="number">0</misc>
+				</cc>
+				<cl type="number">3</cl>
+				<dc>
+					<abilitymod type="number">0</abilitymod>
+					<misc type="number">0</misc>
+					<total type="number">10</total>
+				</dc>
+				<label type="string">Wand of Magic Missle</label>
+				<levels>
+					<level0>
+						<level type="number">0</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level0>
+					<level1>
+						<level type="number">1</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+							<id-00001>
+								<actions>
+									<id-00001>
+										<type type="string">cast</type>
+									</id-00001>
+									<id-00002>
+										<damagelist>
+											<id-00001>
+												<bonus type="number">1</bonus>
+												<dice type="dice">d4</dice>
+												<type type="string">force</type>
+											</id-00001>
+										</damagelist>
+										<type type="string">damage</type>
+									</id-00002>
+								</actions>
+								<cast type="number">0</cast>
+								<castingtime type="string">1 standard action</castingtime>
+								<components type="string">V, S</components>
+								<cost type="number">1</cost>
+								<description type="string">A missile of magical energy darts forth from your fingertip and strikes its target, dealing 1d4+1 points of force damage.\n\nThe missile strikes unerringly, even if the target is in melee combat, so long as it has less than total cover or total concealment. Specific parts of a creature can't be singled out. Objects are not damaged by the spell.\n\nFor every two caster levels beyond 1st, you gain an additional missile-two at 3rd level, three at 5th, four at 7th, and the maximum of five missiles at 9th level or higher. If you shoot multiple missiles, you can have them strike a single creature or several creatures. A single missile can strike only one creature. You must designate targets before you check for spell resistance or roll damage.</description>
+								<duration type="string">instantaneous</duration>
+								<effect type="string">Targets-up to five creatures, no two of which can be more than 15 ft. apart</effect>
+								<level type="string">Arcanist 1, Bloodrager 1, Magus 1, Psychic 1, Sorcerer 1, Wizard 1</level>
+								<linkedspells>
+								</linkedspells>
+								<name type="string">Wand of Magic Missile</name>
+								<prepared type="number">0</prepared>
+								<range type="string">Medium (100 ft. + 10 ft./level)</range>
+								<save type="string">none</save>
+								<school type="string">evocation [force]</school>
+								<shortdescription type="string">1d4+1 damage; +1 missile per two levels above 1st (max 5).</shortdescription>
+								<sr type="string">yes</sr>
+							</id-00001>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level1>
+					<level2>
+						<level type="number">2</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level2>
+					<level3>
+						<level type="number">3</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level3>
+					<level4>
+						<level type="number">4</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level4>
+					<level5>
+						<level type="number">5</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level5>
+					<level6>
+						<level type="number">6</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level6>
+					<level7>
+						<level type="number">7</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level7>
+					<level8>
+						<level type="number">8</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level8>
+					<level9>
+						<level type="number">9</level>
+						<maxprepared type="number">0</maxprepared>
+						<spells>
+						</spells>
+						<totalcast type="number">0</totalcast>
+						<totalprepared type="number">0</totalprepared>
+					</level9>
+				</levels>
+				<points type="number">0</points>
+				<pointsused type="number">0</pointsused>
+				<sp type="number">0</sp>
+			</id-00004>
+		</spellset>
+		<temp>
+		</temp>
+		<token type="token">portrait_id-00003_token</token>
+		<traitlist>
+			<id-00001>
+				<locked type="number">1</locked>
+				<name type="string">Skilled</name>
+				<source type="string">Human</source>
+				<text type="formattedtext">
+					<p>Humans gain an additional skill rank at first level and one additional rank whenever they gain a level.</p>
+				</text>
+			</id-00001>
+			<id-00002>
+				<locked type="number">1</locked>
+				<name type="string">Bonus Feat</name>
+				<source type="string">Human</source>
+				<text type="formattedtext">
+					<p>Humans select one extra feat at 1st level.</p>
+				</text>
+			</id-00002>
+		</traitlist>
+		<weaponlist>
+			<id-00001>
+				<attack1 type="number">3</attack1>
+				<attack1modifier type="number">0</attack1modifier>
+				<attack2 type="number">-2</attack2>
+				<attack2modifier type="number">0</attack2modifier>
+				<attack3 type="number">-7</attack3>
+				<attack3modifier type="number">0</attack3modifier>
+				<attack4 type="number">-12</attack4>
+				<attack4modifier type="number">0</attack4modifier>
+				<attacks type="number">1</attacks>
+				<bonus type="number">0</bonus>
+				<carried type="number">2</carried>
+				<critatkrange type="number">20</critatkrange>
+				<damagelist>
+					<id-00001>
+						<bonus type="number">0</bonus>
+						<critmult type="number">2</critmult>
+						<dice type="dice">d6</dice>
+						<stat type="string">strength</stat>
+						<statmax type="number">0</statmax>
+						<statmult type="number">1.5</statmult>
+						<type type="string">bludgeoning</type>
+					</id-00001>
+				</damagelist>
+				<isidentified type="number">1</isidentified>
+				<maxammo type="number">0</maxammo>
+				<name type="string">Quarterstaff (2H)</name>
+				<properties type="string">double, monk</properties>
+				<rangeincrement type="number">0</rangeincrement>
+				<shortcut type="windowreference">
+					<class>item</class>
+					<recordname>....inventorylist.id-00001</recordname>
+				</shortcut>
+				<type type="number">0</type>
+			</id-00001>
+			<id-00002>
+				<attack1 type="number">-1</attack1>
+				<attack1modifier type="number">0</attack1modifier>
+				<attack2 type="number">-6</attack2>
+				<attack2modifier type="number">0</attack2modifier>
+				<attack3 type="number">-11</attack3>
+				<attack3modifier type="number">0</attack3modifier>
+				<attack4 type="number">-16</attack4>
+				<attack4modifier type="number">0</attack4modifier>
+				<attacks type="number">1</attacks>
+				<bonus type="number">-4</bonus>
+				<carried type="number">2</carried>
+				<critatkrange type="number">20</critatkrange>
+				<damagelist>
+					<id-00001>
+						<bonus type="number">0</bonus>
+						<critmult type="number">2</critmult>
+						<dice type="dice">d6</dice>
+						<stat type="string">strength</stat>
+						<type type="string">bludgeoning</type>
+					</id-00001>
+				</damagelist>
+				<isidentified type="number">1</isidentified>
+				<maxammo type="number">0</maxammo>
+				<name type="string">Quarterstaff (D1)</name>
+				<properties type="string">double, monk</properties>
+				<rangeincrement type="number">0</rangeincrement>
+				<shortcut type="windowreference">
+					<class>item</class>
+					<recordname>....inventorylist.id-00001</recordname>
+				</shortcut>
+				<type type="number">0</type>
+			</id-00002>
+			<id-00003>
+				<attack1 type="number">-5</attack1>
+				<attack1modifier type="number">0</attack1modifier>
+				<attack2 type="number">-10</attack2>
+				<attack2modifier type="number">0</attack2modifier>
+				<attack3 type="number">-15</attack3>
+				<attack3modifier type="number">0</attack3modifier>
+				<attack4 type="number">-20</attack4>
+				<attack4modifier type="number">0</attack4modifier>
+				<attacks type="number">1</attacks>
+				<bonus type="number">-8</bonus>
+				<carried type="number">2</carried>
+				<critatkrange type="number">20</critatkrange>
+				<damagelist>
+					<id-00001>
+						<bonus type="number">0</bonus>
+						<critmult type="number">2</critmult>
+						<dice type="dice">d6</dice>
+						<stat type="string">strength</stat>
+						<statmult type="number">0.5</statmult>
+						<type type="string">bludgeoning</type>
+					</id-00001>
+				</damagelist>
+				<isidentified type="number">1</isidentified>
+				<maxammo type="number">0</maxammo>
+				<name type="string">Quarterstaff (D2)</name>
+				<properties type="string">double, monk</properties>
+				<rangeincrement type="number">0</rangeincrement>
+				<shortcut type="windowreference">
+					<class>item</class>
+					<recordname>....inventorylist.id-00001</recordname>
+				</shortcut>
+				<type type="number">0</type>
+			</id-00003>
+			<id-00004>
+				<attack1 type="number">3</attack1>
+				<attack1modifier type="number">0</attack1modifier>
+				<attack2 type="number">-2</attack2>
+				<attack2modifier type="number">0</attack2modifier>
+				<attack3 type="number">-7</attack3>
+				<attack3modifier type="number">0</attack3modifier>
+				<attack4 type="number">-12</attack4>
+				<attack4modifier type="number">0</attack4modifier>
+				<attacks type="number">1</attacks>
+				<bonus type="number">0</bonus>
+				<carried type="number">2</carried>
+				<critatkrange type="number">19</critatkrange>
+				<damagelist>
+					<id-00001>
+						<bonus type="number">0</bonus>
+						<critmult type="number">2</critmult>
+						<dice type="dice">d4</dice>
+						<stat type="string">strength</stat>
+						<type type="string">piercing,slashing</type>
+					</id-00001>
+				</damagelist>
+				<isidentified type="number">1</isidentified>
+				<maxammo type="number">0</maxammo>
+				<name type="string">Dagger</name>
+				<properties type="string">-</properties>
+				<rangeincrement type="number">0</rangeincrement>
+				<shortcut type="windowreference">
+					<class>item</class>
+					<recordname>....inventorylist.id-00002</recordname>
+				</shortcut>
+				<type type="number">0</type>
+			</id-00004>
+			<id-00005>
+				<attack1 type="number">5</attack1>
+				<attack1modifier type="number">0</attack1modifier>
+				<attack2 type="number">0</attack2>
+				<attack2modifier type="number">0</attack2modifier>
+				<attack3 type="number">-5</attack3>
+				<attack3modifier type="number">0</attack3modifier>
+				<attack4 type="number">-10</attack4>
+				<attack4modifier type="number">0</attack4modifier>
+				<attacks type="number">1</attacks>
+				<bonus type="number">0</bonus>
+				<carried type="number">2</carried>
+				<critatkrange type="number">19</critatkrange>
+				<damagelist>
+					<id-00001>
+						<bonus type="number">0</bonus>
+						<critmult type="number">2</critmult>
+						<dice type="dice">d4</dice>
+						<stat type="string">strength</stat>
+						<type type="string">piercing,slashing</type>
+					</id-00001>
+				</damagelist>
+				<isidentified type="number">1</isidentified>
+				<maxammo type="number">1</maxammo>
+				<name type="string">Dagger</name>
+				<properties type="string">-</properties>
+				<rangeincrement type="number">10</rangeincrement>
+				<shortcut type="windowreference">
+					<class>item</class>
+					<recordname>....inventorylist.id-00002</recordname>
+				</shortcut>
+				<type type="number">1</type>
+			</id-00005>
+		</weaponlist>
+	</character>
+</root>
